@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 695px;
+    background: url(../img/background.jpg)no-repeat center/cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    
+      
+}
+.container::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    background: rgba(0,0,0,0.8);
+    
+    
+ }
+
+ .container:after{
+     width: 120%;
+     height: 230px;
+     content: "";
+     position: absolute;
+     bottom: -150px;
+     left: -10%;
+     transform:rotate(-3deg);
+     background: white;
+    
+
+ }
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    
+}
+
+.header img{
+    width: 160px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.header ul{
+    display: flex;
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+
+.header ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+     margin-right: 20px;
+}
+
+.txt-area {
+    width: 80%;
+    height: 300px;
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 230px;
+    left: 100px;
+
+        
+}
+
+.txt-area-left{
+    width: 66.6%;
+    height: 300px;
+    /* border: 1px red solid; */
+
+}
+
+.txt-area-left h1{
+    width: 100%;
+    height: auto;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.txt-area-left h1 span{
+    color: yellowgreen;
+    font-size: 65px;
+}
+
+.txt-area-left span{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+
+    
+    
+}
+
+.txt-area-left ul{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.txt-area-left ul li{
+    list-style-type: none;
+    
+    
+}
+
+.txt-area-left ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+.txt-area-left ul li a i {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius:50%;
+}
+
+
+
+.txt-area-right {
+    width: 33.3%;
+    height: 300px;
+    /* border: 1px red solid; */
+
+}
+
+.txt-area-right img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 4px solid #96c346;
+    z-index: 1;
+
+    
+}
+
+.wrapper {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.wrapper .about{
+    width: 40%;
+    height: auto;
+    
+    
+}
+
+.wrapper h2{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wrapper p{
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.wrapper .about-btn{
+    padding: 12px 30px;
+    color: white;
+}
+
+.wrapper .about-btn-1{
+    background: #96c346;
+    border: none;
+}
+.wrapper .about-btn-2{
+    background: black;
+    border: none;
+}
+
+.wrapper .skill{
+    width: 40%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.wrapper .skill .progress-box .data-pull{
+    float: right;
+}
+
+.progress-box-1{
+    margin-bottom: 20px;
+}
+.progress-box-2{
+    margin-bottom: 20px;
+}
+.progress-box-3{
+    margin-bottom: 20px;
+}
+.progress-box-4{
+    margin-bottom: 20px;
+}
+.progress-box-5{
+    margin-bottom: 20px;
+}
+.progress-box-1 .grey-box{
+    width: 100%;
+    height: 7px;
+    background: #666666;
+}
+.progress-box-1 .blue-box{
+    width: 88%;
+    height: 7px;
+    background: #96c346;
+}
+.progress-box-2 .grey-box{
+    width: 100%;
+    height: 7px;
+    background: #666666;
+}
+.progress-box-2 .blue-box{
+    width: 70%;
+    height: 7px;
+    background: #96c346;
+}
+.progress-box-3 .grey-box{
+    width: 100%;
+    height: 7px;
+    background: #666666;
+}
+.progress-box-3 .blue-box{
+    width: 50%;
+    height: 7px;
+    background: #96c346;
+}
+.progress-box-4 .grey-box{
+    width: 100%;
+    height: 7px;
+    background: #666666;
+}
+.progress-box-4 .blue-box{
+    width: 50%;
+    height: 7px;
+    background: #96c346;
+}
+.progress-box-5 .grey-box{
+    width: 100%;
+    height: 7px;
+    background: #666666;
+}
+.progress-box-5 .blue-box{
+    width: 90%;
+    height: 7px;
+    background: #96c346;
+}
+.progress-box-6 .grey-box{
+    width: 100%;
+    height: 7px;
+    background: #666666;
+}
+.progress-box-6 .blue-box{
+    width: 60%;
+    height: 7px;
+    background: #96c346;
+}
+
+.service{
+    width: 100%;
+    height: auto;
+    border: 1px black solid;
+    background: rgb(233, 233, 233);
+}
+
+.service-row-1{
+    width: 100%;
+    height: 500px;
+    border: 1px black solid;
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+
+}
+
+.service-row-1 .service-1{
+    width: 27%;
+    height: 210px;
+    /* border: 1px black solid; */
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 29px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    
+
+}
+
+.service-row-1 .service-1 .icon{
+    width: 90px;
+    height: 90px;
+    background: #96c346;
+    line-height: 90px;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: -47px;
+    left: 40%;
+
+}
+
+
+.service-row-1 .service-1 h3{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+
+.service-row-1 .service-1 p{
+    letter-spacing: 0.5px;
+    line-height: 18px;
+}
+
+.number{
+    position: absolute;
+    top: 9%;
+    left: 22%;
+    font-size: 60px;
+    font-style: italic;
+    opacity: 0.1;
+    font-weight: 600;
+
+
+}
+.service-row-1 .service-2{
+    width: 27%;
+    height: 200px;
+    border: 1px black solid;
+    margin-right: 30px;
+
+}
+.service-row-1 .service-3{
+    width: 27%;
+    height: 200px;
+    border: 1px black solid;
+
+}
+
+
+
